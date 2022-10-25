@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/josep/AndroidStudioProjects/SecretMessage/app/src/main/res/layout/activity_main.xml" value="0.42916666666666664" />
+        <entry key="..\:/Users/josep/AndroidStudioProjects/SecretMessage/app/src/main/res/layout/fragment_encrypt.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/josep/AndroidStudioProjects/SecretMessage/app/src/main/res/layout/fragment_message.xml" value="0.262037037037037" />
         <entry key="..\:/Users/josep/AndroidStudioProjects/SecretMessage/app/src/main/res/layout/fragment_welcome.xml" value="0.42916666666666664" />
       </map>

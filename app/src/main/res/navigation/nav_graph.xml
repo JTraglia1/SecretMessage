@@ -14,9 +14,27 @@
             android:id="@+id/action_welcomeFragment_to_messageFragment"
             app:destination="@id/messageFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/messageFragment"
         android:name="com.hfad.secretmessage.MessageFragment"
         android:label="fragment_message"
-        tools:layout="@layout/fragment_message" />
+        tools:layout="@layout/fragment_message" >
+        <action
+            android:id="@+id/action_messageFragment_to_encryptFragment"
+            app:destination="@id/encryptFragment" />
+    </fragment>
+        <action
+            android:id="@+id/action_messageFragment_to_encryptFragment"
+            app:destination="@+id/encryptFragment" />
+
+    <fragment
+        android:id="@+id/encryptFragment"
+        android:name="com.hfad.secretmessage.EncryptFragment"
+        android:label="fragment_encrypt"
+        tools:layout="@layout/fragment_encrypt" >
+        <argument
+            android:name="message"
+            app:argType="string" />
+    </fragment>
 </navigation>
